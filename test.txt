@@ -3,33 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的網頁</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            color: #007bff;
-        }
-        p {
-            line-height: 1.6;
-        }
-    </style>
+    <title>我的第一個網頁</title>
 </head>
 <body>
 
-    <h1>歡迎來到我的網頁！</h1>
+    <header>
+        <h1>歡迎來到我的網頁</h1>
+    </header>
 
-    <p>這是一個簡單的 HTML 文件示例。您可以根據自己的需求進行修改和擴展。</p>
+    <nav>
+        <ul>
+            <li><a href="#">首頁</a></li>
+            <li><a href="#">關於我們</a></li>
+            <li><a href="#">聯絡我們</a></li>
+        </ul>
+    </nav>
 
-    <ul>
-        <li><strong>HTML</strong> - 超文本標記語言</li>
-        <li><strong>CSS</strong> - 層疊樣式表</li>
-        <li><strong>JavaScript</strong> - 網頁互動性語言</li>
-    </ul>
+    <section>
+        <h2>我們的目標</h2>
+        <p>這是一個簡單的網頁示例，用於展示基本的 HTML 結構和元素。</p>
+    </section>
 
-    <p>感謝您的訪問！</p>
+    <footer>
+        <p>&copy; 2024 我的網頁. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>
